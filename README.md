@@ -1,4 +1,5 @@
 # git mergetool
+~/.gitconfig
 
 [merge]
 	tool = kdiff3
