@@ -4,7 +4,6 @@
 #### How to use mergetool?
 
 let's add some more content?
-
 # more header
 
 add some more lines
