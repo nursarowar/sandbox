@@ -20,3 +20,5 @@
 
 [mergetool]
     keepBackup = false
+
+abc
