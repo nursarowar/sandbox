@@ -1,8 +1,22 @@
-## Readme v 0.4
+# git mergetool
+~/.gitconfig
 
-# How to merge?
-#### How to use mergetool?
+[merge]
+	tool = kdiff3
 
-let's add some more content?
+[mergetool "kdiff3"]
+	cmd = \"D:\\\\KDiff3\\\\kdiff3\" "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+  keepBackup = false
+  trustExitCode = false	
 
-aaa
+[diff]
+    tool = kdiff3
+    guitool = kdiff3    
+
+[difftool "kdiff3"]
+    cmd = \"D:\\\\KDiff3\\\\kdiff3\" "$LOCAL" "$REMOTE"
+    keepBackup = false
+    trustExitCode = false
+
+[mergetool]
+    keepBackup = false
